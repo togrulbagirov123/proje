@@ -1,0 +1,294 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.left {
+  width: 10%;
+}
+
+.left img {
+  width: 100%;
+}
+
+.center {
+  width: 70%;
+  text-align: center;
+}
+
+.center a {
+  margin-left: 30px;
+  font-size: 30px;
+  text-decoration: none;
+  color: wheat;
+}
+
+.right {
+  width: 20%;
+  text-align: right;
+  color: wheat;
+}
+
+.man {
+  position: fixed;
+  background-color: black;
+  opacity: 0.6;
+  padding: 30px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 111111;
+}
+
+.woman {
+  background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-2.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 300px 0;
+  text-align: center;
+}
+
+.woman h1 {
+  font-size: 50px;
+  margin-top: 50px;
+  color: wheat;
+}
+
+.woman h2 {
+  margin-top: 30px;
+  color: wheat;
+}
+
+.woman select {
+  margin-top: 20px;
+  outline: none;
+  width: 15%;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.day {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.day .box {
+  margin: 20px 20px;
+  width: 10%;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.day .box img {
+  width: 40%;
+}
+
+.fil {
+  text-align: center;
+  color: black;
+  opacity: 0.7;
+  padding: 100px 0;
+}
+
+.fil h1 {
+  font-size: 40px;
+}
+
+.dam {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.dam .fix {
+  width: 30%;
+  position: relative;
+  margin-top: 20px;
+}
+
+.dam .fix h1 {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  color: wheat;
+}
+
+.dam .fix img {
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: steelblue;
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.fix {
+  position: relative;
+}
+
+.fix:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
+  text-align: center;
+}
+
+.ad {
+  background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-search-2.jpg?id=1538);
+  background-position: center;
+  background-size: cover;
+  padding: 150px 0;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ad .right {
+  background-color: wheat;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.ad .right a {
+  color: red;
+  text-decoration: none;
+}
+
+.mekan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sag {
+  width: 70%;
+  padding: 100px 0;
+}
+
+.sag img {
+  width: 100%;
+  height: 600px;
+}
+
+.sol {
+  width: 30%;
+  padding: 100px 0;
+  padding-left: 70px;
+}
+
+.sol .ot {
+  margin-top: 40px;
+}
+
+.sol p {
+  padding-right: 40px;
+}
+
+.pas a {
+  display: inline-block;
+  font-size: 30px;
+  text-decoration: none;
+  background-color: blue;
+  color: wheat;
+  opacity: 0.6;
+  padding: 10px 30px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.otur {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.otur .at {
+  padding: 0 40px;
+  text-align: center;
+}
+
+.otur .at a {
+  font-size: 20px;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.give {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 100px 0;
+}
+
+.give .maral {
+  width: 50%;
+  background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-search-2.jpg?id=1538);
+  background-position: center;
+  background-size: cover;
+  padding: 120px 0;
+  text-align: center;
+}
+
+.give .ceyran {
+  width: 50%;
+  background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/destination-5-720x720.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 120px 0;
+  text-align: center;
+}
+
+.class {
+  text-align: center;
+  padding: 70px 0;
+}
+
+.ayaq {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.ayaq .foot {
+  width: 30%;
+}
+
+.ayaq img {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
